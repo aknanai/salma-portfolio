@@ -1,0 +1,287 @@
+baseURL: "https://aknanai.github.io/salma-portfolio"
+languageCode: "en-us"
+title: "Salma Aknanai"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: about
+      name: About
+      title: About Me
+      url: /#about
+      weight: 1
+    - identifier: experience
+      name: Experience
+      title: Work Experience
+      url: /#experience
+      weight: 2
+    - identifier: education
+      name: Education
+      title: Education
+      url: /#education
+      weight: 3
+    - identifier: projects
+      name: Projects
+      title: Projects
+      url: /#projects
+      weight: 4
+    - identifier: contact
+      name: Contact
+      title: Contact Me
+      url: /#contact
+      weight: 5
+
+params:
+  title: "Salma Aknanai"
+  description: "Results-oriented professional with experience in financial services, business growth, and digital marketing."
+
+  useBootstrapCDN: false
+  mathjax: false
+  animate: false
+
+  theme:
+    defaultTheme: "light"
+
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  # Professional color scheme - Navy & Gold
+  color:
+    textColor: "#2d3748"
+    secondaryTextColor: "#4a5568"
+    textLinkColor: "#1a365d"
+    backgroundColor: "#ffffff"
+    secondaryBackgroundColor: "#f7fafc"
+    primaryColor: "#1a365d"
+    secondaryColor: "#b7791f"
+
+    darkmode:
+      textColor: "#e4e6eb"
+      secondaryTextColor: "#b0b3b8"
+      textLinkColor: "#ffffff"
+      backgroundColor: "#18191a"
+      secondaryBackgroundColor: "#212529"
+      primaryColor: "#ffffff"
+      secondaryColor: "#b7791f"
+
+  navbar:
+    align: ms-auto
+    brandName: "Salma Aknanai"
+    disableSearch: true
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: true
+      disableContact: false
+
+  # Hero Section
+  hero:
+    enable: true
+    intro: "Hi, I'm"
+    title: "Salma Aknanai"
+    subtitle: "Sales | Marketing | Business Development"
+    content: "Results-oriented professional with experience in financial services and business growth. Proficient in client relationship management, financial sales, and digital marketing, with proven experience in B2B development and cross-functional leadership."
+    image: ""
+    bottomImage:
+      enable: false
+    button:
+      enable: true
+      name: "Download Resume"
+      url: "/files/Salma_Aknanai_CV.pdf"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/salmaaknanai
+        - icon: fas fa-envelope
+          url: mailto:salma.aknanai@gmail.com
+
+  # About Section
+  about:
+    enable: true
+    title: "About Me"
+    image: ""
+    content: |-
+      I am a results-oriented professional with a strong foundation in financial services, business growth, and digital marketing. Currently pursuing a Master of Digital Marketing & Management at Rennes School of Business in France, I bring a unique blend of academic knowledge and practical experience.
+
+      With a track record of success at major financial institutions like US Bank and Fifth Third Bank, I've developed expertise in client relationship management, financial sales, and team leadership. I'm passionate about driving business growth through strategic marketing initiatives and building meaningful client partnerships.
+
+      I'm fluent in English, French, and Arabic, with intermediate Spanish skills, allowing me to connect with diverse clients and markets globally.
+    skills:
+      enable: true
+      title: "Core Competencies:"
+      items:
+        - "Digital Marketing"
+        - "Social Media Management"
+        - "B2B Sales & Development"
+        - "Client Relationship Management"
+        - "Cross-Functional Leadership"
+        - "Market Research & Analysis"
+
+  # Experience Section
+  experience:
+    enable: true
+    items:
+      - company: "Oviaskill"
+        companyUrl: ""
+        jobs:
+          - name: "Marketing & Business Development"
+            date: "2024 - Present"
+            content: |
+              E-Learning Startup focused on professional development and corporate training.
+
+              - Building and managing all social media channels (Meta, LinkedIn), executing content strategy with Canva and AI tools, and running paid ad campaigns to drive growth
+              - Conducting foundational market research and competitive benchmarking to define and set pricing strategy for all e-learning modules
+              - Creating the company's B2B portfolio and sales brochure, leading outreach to establish corporate training partnerships
+
+      - company: "US Bank"
+        companyUrl: "https://www.usbank.com"
+        jobs:
+          - name: "Client Consultant"
+            date: "2023 - 2024"
+            content: |
+              Wealth management and client advisory services at one of the largest banks in the United States.
+
+              - Partnered with advisor teams to acquire new clients and manage wealth portfolios
+              - Delivered customized financial solutions to protect, manage, and grow client assets
+              - Analyzed complex client needs and coordinated firm-wide resources to deliver exceptional service
+
+      - company: "Fifth Third Bank"
+        companyUrl: "https://www.53.com"
+        jobs:
+          - name: "Service to Solution Representative"
+            date: "2021 - 2023"
+            content: |
+              Customer service excellence and operational leadership at a major regional bank.
+
+              - Resolved 150+ daily client inquiries, consistently exceeding sales goals through product adoption
+              - Led cross-functional teams to enhance bank security protocols and optimize mobile/web User Experience (UX)
+              - Trained and mentored new hire cohorts (15+ employees) on bank policies and service protocols
+
+  # Education Section
+  education:
+    enable: true
+    index: false
+    items:
+      - title: "Master of Digital Marketing & Management"
+        school:
+          name: "Rennes School of Business"
+          url: "https://www.rennes-sb.com"
+        date: "2024 - 2025"
+        content: |-
+          Advanced studies in digital marketing strategy, brand management, and business analytics.
+
+          Focus Areas:
+          - Digital Marketing Strategy
+          - Brand Management
+          - Business Analytics
+          - International Marketing
+
+      - title: "Bachelor of Business Administration"
+        school:
+          name: "University of Cincinnati"
+          url: "https://www.uc.edu"
+        date: "2021 - 2023"
+        GPA: "3.3 out of 4.0"
+        content: |-
+          Comprehensive business education with focus on marketing and management principles.
+
+          Activities:
+          - Business school projects and case competitions
+          - Concurrent work experience in banking sector
+
+  # Projects Section
+  projects:
+    enable: true
+    title: "Portfolio & Projects"
+    items:
+      - title: "Social Media Marketing - Oviaskill"
+        content: "Developed and executed comprehensive social media strategy for e-learning startup, managing Meta and LinkedIn channels with content creation and paid advertising campaigns."
+        image: ""
+        badges:
+          - "Social Media"
+          - "Content Strategy"
+          - "Paid Ads"
+          - "Canva"
+
+      - title: "B2B Sales Development"
+        content: "Created corporate training portfolio and sales materials for B2B outreach, establishing partnerships with organizations for professional development programs."
+        image: ""
+        badges:
+          - "B2B Sales"
+          - "Sales Collateral"
+          - "Partnership Development"
+
+      - title: "Market Research & Pricing Strategy"
+        content: "Conducted competitive benchmarking and market analysis to define pricing strategy for e-learning modules, optimizing for market positioning and profitability."
+        image: ""
+        badges:
+          - "Market Research"
+          - "Competitive Analysis"
+          - "Pricing Strategy"
+
+  # Contact Section
+  contact:
+    enable: true
+    title: "Get In Touch"
+    content: "I'm always open to discussing new opportunities, collaborations, or just having a conversation about marketing and business development. Feel free to reach out!"
+    btnName: "Email Me"
+    btnLink: mailto:salma.aknanai@gmail.com
+
+  footer:
+    recentPosts:
+      enable: false
+    socialNetworks:
+      linkedin: https://www.linkedin.com/in/salmaaknanai
+
+  listPages:
+    disableFeaturedImage: true
+
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
