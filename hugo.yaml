@@ -81,7 +81,6 @@ params:
     title: "Salma Aknanai"
     subtitle: "Sales | Marketing | Business Development"
     content: "Results-oriented professional with experience in financial services and business growth. Proficient in client relationship management, financial sales, and digital marketing, with proven experience in B2B development and cross-functional leadership."
-    image: ""
     bottomImage:
       enable: false
     button:
@@ -101,7 +100,6 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: ""
     content: |-
       I am a results-oriented professional with a strong foundation in financial services, business growth, and digital marketing. Currently pursuing a Master of Digital Marketing & Management at Rennes School of Business in France, I bring a unique blend of academic knowledge and practical experience.
 
@@ -198,7 +196,6 @@ params:
     items:
       - title: "Social Media Marketing - Oviaskill"
         content: "Developed and executed comprehensive social media strategy for e-learning startup, managing Meta and LinkedIn channels with content creation and paid advertising campaigns."
-        image: ""
         badges:
           - "Social Media"
           - "Content Strategy"
@@ -207,7 +204,6 @@ params:
 
       - title: "B2B Sales Development"
         content: "Created corporate training portfolio and sales materials for B2B outreach, establishing partnerships with organizations for professional development programs."
-        image: ""
         badges:
           - "B2B Sales"
           - "Sales Collateral"
@@ -215,7 +211,6 @@ params:
 
       - title: "Market Research & Pricing Strategy"
         content: "Conducted competitive benchmarking and market analysis to define pricing strategy for e-learning modules, optimizing for market positioning and profitability."
-        image: ""
         badges:
           - "Market Research"
           - "Competitive Analysis"
