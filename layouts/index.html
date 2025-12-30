@@ -14,7 +14,7 @@
   <!-- Left Side - Image -->
   <div class="hero__image-container">
     {{ if .Site.Params.hero.image }}
-    <img src="{{ .Site.Params.hero.image }}" alt="{{ .Site.Params.hero.title }}" class="hero__image">
+    <img src="{{ .Site.Params.hero.image | relURL }}" alt="{{ .Site.Params.hero.title }}" class="hero__image">
     {{ else }}
     <div class="hero__image-placeholder">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
