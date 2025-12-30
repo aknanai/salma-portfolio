@@ -26,9 +26,9 @@ params:
   title: "Salma Aknanai"
   description: "Results-oriented professional with experience in financial services, business growth, and digital marketing."
 
-  useBootstrapCDN: true
+  useBootstrapCDN: false
   mathjax: false
-  animate: false
+  animate: true
 
   theme:
     defaultTheme: "light"
@@ -39,40 +39,40 @@ params:
     lineHeight: 1.5
     textAlign: left
 
-  # Professional color scheme - Navy & Gold
+  # Elegant Black & White color scheme
   color:
-    textColor: "#2d3748"
-    secondaryTextColor: "#4a5568"
-    textLinkColor: "#1a365d"
+    textColor: "#1a1a1a"
+    secondaryTextColor: "#4a4a4a"
+    textLinkColor: "#1a1a1a"
     backgroundColor: "#ffffff"
-    secondaryBackgroundColor: "#f7fafc"
-    primaryColor: "#1a365d"
-    secondaryColor: "#b7791f"
+    secondaryBackgroundColor: "#f8f8f8"
+    primaryColor: "#1a1a1a"
+    secondaryColor: "#c4a35a"
 
     darkmode:
-      textColor: "#e4e6eb"
-      secondaryTextColor: "#b0b3b8"
+      textColor: "#f8f8f8"
+      secondaryTextColor: "#d0d0d0"
       textLinkColor: "#ffffff"
-      backgroundColor: "#18191a"
-      secondaryBackgroundColor: "#212529"
+      backgroundColor: "#1a1a1a"
+      secondaryBackgroundColor: "#2a2a2a"
       primaryColor: "#ffffff"
-      secondaryColor: "#b7791f"
+      secondaryColor: "#c4a35a"
 
   navbar:
     align: ms-auto
     brandName: "Salma Aknanai"
     disableSearch: true
     stickyNavBar:
-      enable: true
-      showOnScrollUp: true
+      enable: false
+      showOnScrollUp: false
     enableSeparator: false
     menus:
-      disableAbout: false
-      disableExperience: false
-      disableEducation: false
-      disableProjects: false
+      disableAbout: true
+      disableExperience: true
+      disableEducation: true
+      disableProjects: true
       disableAchievements: true
-      disableContact: false
+      disableContact: true
 
   # Hero Section
   hero:
